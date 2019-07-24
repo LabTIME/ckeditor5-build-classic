@@ -38,7 +38,6 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
-import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount';
 
 export default class ClassicEditor extends ClassicEditorBase {
 }
@@ -76,8 +75,7 @@ ClassicEditor.builtinPlugins = [
 	PasteFromOffice,
 	RemoveFormat,
 	Table,
-	TableToolbar,
-	WordCount
+	TableToolbar
 ];
 
 // Editor configuration.
